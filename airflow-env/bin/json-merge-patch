@@ -1,7 +1,0 @@
-#!/home/sravan2418/airflow-env/bin/python3
-import json_merge_patch.cli
-json_merge_patch.cli.main()
-
-
-
-

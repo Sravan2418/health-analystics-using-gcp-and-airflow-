@@ -1,0 +1,22 @@
+[2025-02-27T21:34:09.732+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-27T21:34:09.748+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_and_transform.load_csv_to_bq manual__2025-02-27T21:34:00.844211+00:00 [queued]>
+[2025-02-27T21:34:09.756+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_and_transform.load_csv_to_bq manual__2025-02-27T21:34:00.844211+00:00 [queued]>
+[2025-02-27T21:34:09.757+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-02-27T21:34:09.774+0000] {taskinstance.py:2890} INFO - Executing <Task(GCSToBigQueryOperator): load_csv_to_bq> on 2025-02-27 21:34:00.844211+00:00
+[2025-02-27T21:34:09.780+0000] {standard_task_runner.py:72} INFO - Started process 5858 to run task
+[2025-02-27T21:34:09.787+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'load_and_transform', 'load_csv_to_bq', 'manual__2025-02-27T21:34:00.844211+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/transformation.py', '--cfg-path', '/tmp/tmpwsz7j301']
+[2025-02-27T21:34:09.791+0000] {standard_task_runner.py:105} INFO - Job 15: Subtask load_csv_to_bq
+[2025-02-27T21:34:09.843+0000] {task_command.py:467} INFO - Running <TaskInstance: load_and_transform.load_csv_to_bq manual__2025-02-27T21:34:00.844211+00:00 [running]> on host airflow.us-central1-c.c.healthcare-project-452218.internal
+[2025-02-27T21:34:09.912+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='load_and_transform' AIRFLOW_CTX_TASK_ID='load_csv_to_bq' AIRFLOW_CTX_EXECUTION_DATE='2025-02-27T21:34:00.844211+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-27T21:34:00.844211+00:00'
+[2025-02-27T21:34:09.914+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-27T21:34:09.941+0000] {connection.py:277} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2025-02-27T21:34:09.941+0000] {base.py:84} INFO - Retrieving connection 'google_cloud_default'
+[2025-02-27T21:34:09.942+0000] {gcs_to_bigquery.py:387} INFO - Using existing BigQuery table for storing data...
+[2025-02-27T21:34:09.943+0000] {credentials_provider.py:409} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2025-02-27T21:34:09.954+0000] {gcs_to_bigquery.py:391} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'healthcare-project-452218', 'datasetId': 'staging_dataset', 'tableId': 'global_data'}, 'sourceFormat': 'CSV', 'sourceUris': ['gs://bkt-src-global-health-data/global_health_data.csv'], 'writeDisposition': 'WRITE_TRUNCATE', 'ignoreUnknownValues': True, 'skipLeadingRows': 1, 'fieldDelimiter': ',', 'quote': None, 'allowQuotedNewlines': False, 'encoding': 'UTF-8', 'allowJaggedRows': True}}
+[2025-02-27T21:34:09.962+0000] {bigquery.py:1344} INFO - Inserting job airflow_load_and_transform_load_csv_to_bq_2025_02_27T21_34_00_844211_00_00_9a1e66a9f6a2f90215e949f625645aae
+[2025-02-27T21:34:26.212+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-27T21:34:26.212+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=load_and_transform, task_id=load_csv_to_bq, run_id=manual__2025-02-27T21:34:00.844211+00:00, execution_date=20250227T213400, start_date=20250227T213409, end_date=20250227T213426
+[2025-02-27T21:34:26.251+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-27T21:34:26.276+0000] {taskinstance.py:3901} INFO - 7 downstream tasks scheduled from follow-on schedule check
+[2025-02-27T21:34:26.281+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

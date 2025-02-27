@@ -1,0 +1,484 @@
+[2025-02-27T21:42:53.401+0000] {processor.py:186} INFO - Started process (PID=6074) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:42:53.402+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:42:53.406+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:42:53.405+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:42:53.426+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:42:53.563+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:42:53.562+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:load_and_transform_view
+[2025-02-27T21:42:53.580+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:42:53.579+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:load_and_transform_view
+[2025-02-27T21:42:53.591+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:42:53.591+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:load_and_transform_view
+[2025-02-27T21:42:53.609+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:42:53.609+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:load_and_transform_view
+[2025-02-27T21:42:53.621+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:42:53.620+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:load_and_transform_view
+[2025-02-27T21:42:53.631+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:42:53.630+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:load_and_transform_view
+[2025-02-27T21:42:53.641+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:42:53.641+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:load_and_transform_view
+[2025-02-27T21:42:53.642+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:42:53.642+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:42:53.655+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:42:53.655+0000] {dag.py:3262} INFO - Creating ORM DAG for load_and_transform_view
+[2025-02-27T21:42:53.656+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:42:53.656+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:42:53.679+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.287 seconds
+[2025-02-27T21:43:26.701+0000] {processor.py:186} INFO - Started process (PID=6087) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:43:26.703+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:43:26.707+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:43:26.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:43:26.728+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:43:26.778+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:43:26.778+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:43:26.796+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:43:26.795+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:43:26.822+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.132 seconds
+[2025-02-27T21:44:47.747+0000] {processor.py:186} INFO - Started process (PID=6152) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:44:47.752+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:44:47.757+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:44:47.756+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:44:47.782+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:44:47.821+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:44:47.821+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:44:47.837+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:44:47.836+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:44:47.862+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.125 seconds
+[2025-02-27T21:45:28.025+0000] {processor.py:186} INFO - Started process (PID=6203) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:45:28.028+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:45:28.033+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:45:28.032+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:45:28.055+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:45:28.102+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:45:28.101+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:45:28.123+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:45:28.122+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:45:28.158+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.145 seconds
+[2025-02-27T21:45:58.272+0000] {processor.py:186} INFO - Started process (PID=6209) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:45:58.274+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:45:58.279+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:45:58.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:45:58.302+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:45:58.339+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:45:58.338+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:45:58.355+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:45:58.355+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:45:58.382+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.120 seconds
+[2025-02-27T21:46:29.436+0000] {processor.py:186} INFO - Started process (PID=6217) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:46:29.438+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:46:29.443+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:46:29.442+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:46:29.466+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:46:29.509+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:46:29.508+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:46:29.917+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:46:29.916+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:46:29.946+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.521 seconds
+[2025-02-27T21:47:00.176+0000] {processor.py:186} INFO - Started process (PID=6221) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:47:00.179+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:47:00.183+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:47:00.182+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:47:00.202+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:47:00.240+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:47:00.239+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:47:00.525+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:47:00.525+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:47:00.549+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.383 seconds
+[2025-02-27T21:47:30.997+0000] {processor.py:186} INFO - Started process (PID=6227) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:47:30.999+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:47:31.004+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:47:31.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:47:31.027+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:47:31.437+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:47:31.436+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:47:31.452+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:47:31.452+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:47:31.480+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.495 seconds
+[2025-02-27T21:48:02.342+0000] {processor.py:186} INFO - Started process (PID=6233) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:48:02.346+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:48:02.350+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:48:02.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:48:02.664+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:48:02.692+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:48:02.692+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:48:02.705+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:48:02.704+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:48:02.728+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.397 seconds
+[2025-02-27T21:48:33.170+0000] {processor.py:186} INFO - Started process (PID=6237) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:48:33.172+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:48:33.176+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:48:33.175+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:48:33.195+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:48:33.231+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:48:33.230+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:48:33.247+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:48:33.247+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:48:33.273+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.113 seconds
+[2025-02-27T21:49:03.739+0000] {processor.py:186} INFO - Started process (PID=6243) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:49:03.741+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:49:03.746+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:49:03.745+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:49:03.770+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:49:03.811+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:49:03.811+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:49:03.828+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:49:03.828+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:49:03.854+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.127 seconds
+[2025-02-27T21:49:34.483+0000] {processor.py:186} INFO - Started process (PID=6251) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:49:34.485+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:49:34.489+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:49:34.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:49:34.508+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:49:34.544+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:49:34.543+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:49:34.561+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:49:34.561+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:49:34.586+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.113 seconds
+[2025-02-27T21:50:05.057+0000] {processor.py:186} INFO - Started process (PID=6259) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:50:05.059+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:50:05.063+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:50:05.063+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:50:05.090+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:50:05.139+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:50:05.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:50:05.159+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:50:05.159+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:50:05.194+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.150 seconds
+[2025-02-27T21:50:35.790+0000] {processor.py:186} INFO - Started process (PID=6266) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:50:35.792+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:50:35.795+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:50:35.795+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:50:35.815+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:50:35.852+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:50:35.852+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:50:35.868+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:50:35.868+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:50:35.898+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.119 seconds
+[2025-02-27T21:51:06.174+0000] {processor.py:186} INFO - Started process (PID=6272) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:51:06.175+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:51:06.181+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:51:06.180+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:51:06.204+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:51:06.246+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:51:06.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:51:06.267+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:51:06.267+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:51:06.299+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.137 seconds
+[2025-02-27T21:51:36.452+0000] {processor.py:186} INFO - Started process (PID=6275) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:51:36.455+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:51:36.459+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:51:36.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:51:36.478+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:51:36.515+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:51:36.515+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:51:36.531+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:51:36.531+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:51:36.556+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.114 seconds
+[2025-02-27T21:52:06.790+0000] {processor.py:186} INFO - Started process (PID=6281) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:52:06.792+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:52:06.798+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:52:06.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:52:06.823+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:52:06.869+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:52:06.868+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:52:06.891+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:52:06.891+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:52:06.921+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.144 seconds
+[2025-02-27T21:52:37.145+0000] {processor.py:186} INFO - Started process (PID=6287) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:52:37.148+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:52:37.153+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:52:37.153+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:52:37.177+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:52:37.226+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:52:37.225+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:52:37.247+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:52:37.247+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:52:37.279+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.146 seconds
+[2025-02-27T21:53:07.445+0000] {processor.py:186} INFO - Started process (PID=6291) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:53:07.449+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:53:07.454+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:53:07.454+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:53:07.475+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:53:07.511+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:53:07.511+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:53:07.529+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:53:07.529+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:53:07.556+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.122 seconds
+[2025-02-27T21:53:37.798+0000] {processor.py:186} INFO - Started process (PID=6297) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:53:37.800+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:53:37.805+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:53:37.804+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:53:37.829+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:53:37.874+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:53:37.873+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:53:37.893+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:53:37.893+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:53:37.925+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.140 seconds
+[2025-02-27T21:54:08.154+0000] {processor.py:186} INFO - Started process (PID=6301) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:54:08.156+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:54:08.162+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:54:08.161+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:54:08.186+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:54:08.230+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:54:08.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:54:08.256+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:54:08.255+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:54:08.289+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.147 seconds
+[2025-02-27T21:54:38.501+0000] {processor.py:186} INFO - Started process (PID=6315) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:54:38.503+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:54:38.507+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:54:38.506+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:54:38.527+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:54:38.562+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:54:38.561+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:54:38.579+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:54:38.579+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:54:38.607+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.116 seconds
+[2025-02-27T21:55:08.858+0000] {processor.py:186} INFO - Started process (PID=6321) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:55:08.861+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:55:08.867+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:55:08.866+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:55:08.892+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:55:08.936+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:55:08.935+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:55:08.956+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:55:08.955+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:55:08.992+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.147 seconds
+[2025-02-27T21:55:39.207+0000] {processor.py:186} INFO - Started process (PID=6328) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:55:39.210+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:55:39.214+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:55:39.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:55:39.233+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:55:39.268+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:55:39.267+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:55:39.284+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:55:39.283+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:55:39.309+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.112 seconds
+[2025-02-27T21:56:09.441+0000] {processor.py:186} INFO - Started process (PID=6335) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:56:09.443+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:56:09.449+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:56:09.448+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:56:09.473+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:56:09.515+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:56:09.514+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:56:09.535+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:56:09.535+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:56:09.568+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.139 seconds
+[2025-02-27T21:56:39.788+0000] {processor.py:186} INFO - Started process (PID=6341) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:56:39.791+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:56:39.796+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:56:39.795+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:56:39.820+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:56:39.864+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:56:39.863+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:56:39.889+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:56:39.889+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:56:39.926+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.151 seconds
+[2025-02-27T21:57:10.119+0000] {processor.py:186} INFO - Started process (PID=6345) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:57:10.120+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:57:10.124+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:57:10.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:57:10.145+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:57:10.186+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:57:10.185+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:57:10.205+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:57:10.205+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:57:10.232+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.124 seconds
+[2025-02-27T21:57:40.456+0000] {processor.py:186} INFO - Started process (PID=6351) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:57:40.459+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:57:40.463+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:57:40.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:57:40.483+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:57:40.521+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:57:40.520+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:57:40.538+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:57:40.537+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:57:40.562+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.117 seconds
+[2025-02-27T21:58:10.889+0000] {processor.py:186} INFO - Started process (PID=6357) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:58:10.891+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:58:10.896+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:58:10.895+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:58:10.919+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:58:10.962+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:58:10.961+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:58:10.981+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:58:10.981+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:58:11.017+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.141 seconds
+[2025-02-27T21:58:41.239+0000] {processor.py:186} INFO - Started process (PID=6364) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:58:41.241+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:58:41.246+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:58:41.245+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:58:41.266+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:58:41.305+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:58:41.305+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:58:41.325+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:58:41.324+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:58:41.354+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.126 seconds
+[2025-02-27T21:59:11.537+0000] {processor.py:186} INFO - Started process (PID=6373) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:59:11.540+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:59:11.544+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:59:11.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:59:11.564+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:59:11.604+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:59:11.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:59:11.622+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:59:11.622+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:59:11.649+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.123 seconds
+[2025-02-27T21:59:41.876+0000] {processor.py:186} INFO - Started process (PID=6379) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:59:41.877+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T21:59:41.882+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:59:41.881+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:59:41.901+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T21:59:41.936+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:59:41.936+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T21:59:41.953+0000] {logging_mixin.py:190} INFO - [2025-02-27T21:59:41.953+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T21:59:41.977+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.111 seconds
+[2025-02-27T22:00:12.220+0000] {processor.py:186} INFO - Started process (PID=6385) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:00:12.222+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:00:12.226+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:00:12.226+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:00:12.247+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:00:12.284+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:00:12.283+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:00:12.302+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:00:12.301+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:00:12.327+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.118 seconds
+[2025-02-27T22:00:42.553+0000] {processor.py:186} INFO - Started process (PID=6392) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:00:42.555+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:00:42.559+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:00:42.558+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:00:42.579+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:00:42.616+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:00:42.615+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:00:42.634+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:00:42.634+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:00:42.660+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.117 seconds
+[2025-02-27T22:01:12.917+0000] {processor.py:186} INFO - Started process (PID=6396) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:01:12.920+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:01:12.925+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:01:12.924+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:01:12.955+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:01:13.005+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:01:13.004+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:01:13.027+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:01:13.026+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:01:13.062+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.159 seconds
+[2025-02-27T22:01:43.266+0000] {processor.py:186} INFO - Started process (PID=6402) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:01:43.268+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:01:43.273+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:01:43.273+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:01:43.297+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:01:43.340+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:01:43.339+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:01:43.359+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:01:43.358+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:01:43.390+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.137 seconds
+[2025-02-27T22:02:14.532+0000] {processor.py:186} INFO - Started process (PID=6408) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:02:14.535+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:02:14.539+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:02:14.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:02:14.560+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:02:14.596+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:02:14.596+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:02:14.615+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:02:14.615+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:02:14.641+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.119 seconds
+[2025-02-27T22:02:44.842+0000] {processor.py:186} INFO - Started process (PID=6412) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:02:44.843+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:02:44.848+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:02:44.847+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:02:44.869+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:02:44.908+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:02:44.907+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:02:44.926+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:02:44.925+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:02:44.955+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.125 seconds
+[2025-02-27T22:03:15.144+0000] {processor.py:186} INFO - Started process (PID=6418) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:03:15.147+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:03:15.151+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:03:15.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:03:15.172+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:03:15.210+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:03:15.209+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:03:15.229+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:03:15.229+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:03:15.258+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.125 seconds
+[2025-02-27T22:03:45.447+0000] {processor.py:186} INFO - Started process (PID=6424) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:03:45.449+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:03:45.455+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:03:45.454+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:03:45.475+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:03:45.513+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:03:45.513+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:03:45.534+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:03:45.534+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:03:45.564+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.128 seconds
+[2025-02-27T22:04:15.751+0000] {processor.py:186} INFO - Started process (PID=6428) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:04:15.754+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:04:15.758+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:04:15.757+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:04:15.780+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:04:15.821+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:04:15.820+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:04:15.848+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:04:15.847+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:04:15.875+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.134 seconds
+[2025-02-27T22:04:46.046+0000] {processor.py:186} INFO - Started process (PID=6439) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:04:46.048+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:04:46.053+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:04:46.053+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:04:46.076+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:04:46.118+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:04:46.117+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:04:46.138+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:04:46.138+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:04:46.171+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.136 seconds
+[2025-02-27T22:05:16.349+0000] {processor.py:186} INFO - Started process (PID=6445) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:05:16.352+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:05:16.357+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:05:16.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:05:16.382+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:05:16.425+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:05:16.424+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:05:16.444+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:05:16.444+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:05:16.475+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.139 seconds
+[2025-02-27T22:05:46.645+0000] {processor.py:186} INFO - Started process (PID=6451) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:05:46.647+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:05:46.651+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:05:46.650+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:05:46.671+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:05:46.707+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:05:46.706+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:05:46.723+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:05:46.723+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:05:46.749+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.114 seconds
+[2025-02-27T22:06:16.954+0000] {processor.py:186} INFO - Started process (PID=6457) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:06:16.957+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:06:16.963+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:06:16.962+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:06:16.986+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:06:17.026+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:06:17.026+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:06:17.044+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:06:17.044+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:06:17.071+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.129 seconds
+[2025-02-27T22:06:47.265+0000] {processor.py:186} INFO - Started process (PID=6469) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:06:47.267+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:06:47.272+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:06:47.271+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:06:47.292+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:06:47.329+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:06:47.328+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:06:47.350+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:06:47.350+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:06:47.379+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.125 seconds
+[2025-02-27T22:07:17.563+0000] {processor.py:186} INFO - Started process (PID=6478) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:07:17.564+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:07:17.568+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:07:17.568+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:07:17.589+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:07:17.627+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:07:17.626+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:07:17.646+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:07:17.646+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:07:17.672+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.122 seconds
+[2025-02-27T22:07:47.860+0000] {processor.py:186} INFO - Started process (PID=6486) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:07:47.862+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:07:47.868+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:07:47.867+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:07:47.892+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:07:47.936+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:07:47.935+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:07:47.955+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:07:47.955+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:07:47.988+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.141 seconds
+[2025-02-27T22:08:18.157+0000] {processor.py:186} INFO - Started process (PID=6493) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:08:18.159+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:08:18.164+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:08:18.163+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:08:18.183+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:08:18.220+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:08:18.219+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:08:18.236+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:08:18.236+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:08:18.260+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.113 seconds
+[2025-02-27T22:08:48.459+0000] {processor.py:186} INFO - Started process (PID=6501) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:08:48.460+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:08:48.464+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:08:48.464+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:08:48.484+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:08:48.519+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:08:48.518+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:08:48.536+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:08:48.535+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:08:48.561+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.112 seconds
+[2025-02-27T22:09:18.761+0000] {processor.py:186} INFO - Started process (PID=6507) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:09:18.763+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:09:18.767+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:09:18.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:09:18.787+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:09:18.823+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:09:18.823+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:09:18.840+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:09:18.839+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:09:18.864+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.114 seconds
+[2025-02-27T22:09:49.055+0000] {processor.py:186} INFO - Started process (PID=6513) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:09:49.057+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:09:49.061+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:09:49.060+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:09:49.081+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:09:49.118+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:09:49.118+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:09:49.135+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:09:49.135+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:09:49.162+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.117 seconds
+[2025-02-27T22:10:19.344+0000] {processor.py:186} INFO - Started process (PID=6519) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:10:19.346+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:10:19.351+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:10:19.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:10:19.375+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:10:19.418+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:10:19.417+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:10:19.441+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:10:19.441+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:10:19.486+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.154 seconds
+[2025-02-27T22:10:49.655+0000] {processor.py:186} INFO - Started process (PID=6525) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:10:49.657+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:10:49.663+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:10:49.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:10:49.682+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:10:49.719+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:10:49.718+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:10:49.737+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:10:49.737+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:10:49.764+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.119 seconds
+[2025-02-27T22:11:20.990+0000] {processor.py:186} INFO - Started process (PID=6529) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:11:20.994+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:11:20.999+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:11:20.998+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:11:21.022+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:11:21.066+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:11:21.065+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:11:21.085+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:11:21.085+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:11:21.117+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.138 seconds
+[2025-02-27T22:11:51.276+0000] {processor.py:186} INFO - Started process (PID=6538) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:11:51.278+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:11:51.283+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:11:51.282+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:11:51.306+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:11:51.349+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:11:51.348+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:11:51.369+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:11:51.368+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:11:51.402+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.138 seconds
+[2025-02-27T22:12:21.558+0000] {processor.py:186} INFO - Started process (PID=6544) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:12:21.559+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:12:21.563+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:12:21.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:12:21.582+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:12:21.617+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:12:21.617+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:12:21.633+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:12:21.633+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:12:21.661+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.113 seconds
+[2025-02-27T22:12:51.853+0000] {processor.py:186} INFO - Started process (PID=6548) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:12:51.857+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:12:51.862+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:12:51.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:12:51.885+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:12:51.922+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:12:51.922+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:12:51.938+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:12:51.938+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:12:51.962+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.122 seconds
+[2025-02-27T22:13:22.150+0000] {processor.py:186} INFO - Started process (PID=6554) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:13:22.152+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:13:22.157+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:13:22.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:13:22.180+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:13:22.223+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:13:22.222+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:13:22.242+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:13:22.242+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:13:22.272+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.134 seconds
+[2025-02-27T22:13:52.372+0000] {processor.py:186} INFO - Started process (PID=6560) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:13:52.375+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:13:52.379+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:13:52.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:13:52.399+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:13:52.436+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:13:52.435+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:13:52.453+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:13:52.453+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:13:52.479+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.117 seconds
+[2025-02-27T22:14:22.698+0000] {processor.py:186} INFO - Started process (PID=6598) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:14:22.700+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:14:22.705+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:14:22.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:14:22.730+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:14:22.775+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:14:22.774+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:14:22.797+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:14:22.796+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:14:22.830+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.144 seconds
+[2025-02-27T22:14:52.994+0000] {processor.py:186} INFO - Started process (PID=6612) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:14:53.018+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:14:53.024+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:14:53.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:14:53.047+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:14:53.091+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:14:53.090+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:14:53.110+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:14:53.110+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:14:53.135+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.153 seconds
+[2025-02-27T22:15:23.303+0000] {processor.py:186} INFO - Started process (PID=6617) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:15:23.304+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:15:23.309+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:15:23.309+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:15:23.333+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:15:23.377+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:15:23.376+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:15:23.396+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:15:23.396+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:15:23.428+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.138 seconds
+[2025-02-27T22:15:53.589+0000] {processor.py:186} INFO - Started process (PID=6640) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:15:53.592+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:15:53.595+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:15:53.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:15:53.615+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:15:53.651+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:15:53.651+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:15:53.667+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:15:53.667+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:15:53.694+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.114 seconds
+[2025-02-27T22:16:23.900+0000] {processor.py:186} INFO - Started process (PID=6718) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:16:23.902+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:16:23.906+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:16:23.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:16:23.926+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:16:23.962+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:16:23.961+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:16:23.980+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:16:23.979+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:16:24.008+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.117 seconds
+[2025-02-27T22:16:54.388+0000] {processor.py:186} INFO - Started process (PID=6727) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:16:54.393+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:16:54.400+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:16:54.399+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:16:54.436+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:16:54.500+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:16:54.499+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:16:54.529+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:16:54.529+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:16:54.570+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.197 seconds
+[2025-02-27T22:17:25.558+0000] {processor.py:186} INFO - Started process (PID=6750) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:17:25.566+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:17:25.573+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:17:25.572+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:17:25.610+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:17:25.672+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:17:25.671+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:17:25.700+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:17:25.700+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:17:25.752+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.212 seconds
+[2025-02-27T22:17:56.220+0000] {processor.py:186} INFO - Started process (PID=6756) to work on /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:17:56.231+0000] {processor.py:914} INFO - Processing file /home/sravan2418/airflow/dags/finial.py for tasks to queue
+[2025-02-27T22:17:56.236+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:17:56.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:17:56.261+0000] {processor.py:925} INFO - DAG(s) 'load_and_transform_view' retrieved from /home/sravan2418/airflow/dags/finial.py
+[2025-02-27T22:17:56.311+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:17:56.310+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-27T22:17:56.341+0000] {logging_mixin.py:190} INFO - [2025-02-27T22:17:56.341+0000] {dag.py:4180} INFO - Setting next_dagrun for load_and_transform_view to None, run_after=None
+[2025-02-27T22:17:56.390+0000] {processor.py:208} INFO - Processing /home/sravan2418/airflow/dags/finial.py took 0.182 seconds

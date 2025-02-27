@@ -1,0 +1,22 @@
+[2025-02-27T21:45:06.715+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-27T21:45:06.733+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_and_transform_view.create_view_japan_table manual__2025-02-27T21:43:20.172370+00:00 [queued]>
+[2025-02-27T21:45:06.743+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_and_transform_view.create_view_japan_table manual__2025-02-27T21:43:20.172370+00:00 [queued]>
+[2025-02-27T21:45:06.744+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-02-27T21:45:06.763+0000] {taskinstance.py:2890} INFO - Executing <Task(BigQueryInsertJobOperator): create_view_japan_table> on 2025-02-27 21:43:20.172370+00:00
+[2025-02-27T21:45:06.770+0000] {standard_task_runner.py:72} INFO - Started process 6176 to run task
+[2025-02-27T21:45:06.777+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'load_and_transform_view', 'create_view_japan_table', 'manual__2025-02-27T21:43:20.172370+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/finial.py', '--cfg-path', '/tmp/tmp41umlv22']
+[2025-02-27T21:45:06.781+0000] {standard_task_runner.py:105} INFO - Job 51: Subtask create_view_japan_table
+[2025-02-27T21:45:06.837+0000] {task_command.py:467} INFO - Running <TaskInstance: load_and_transform_view.create_view_japan_table manual__2025-02-27T21:43:20.172370+00:00 [running]> on host airflow.us-central1-c.c.healthcare-project-452218.internal
+[2025-02-27T21:45:06.912+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='load_and_transform_view' AIRFLOW_CTX_TASK_ID='create_view_japan_table' AIRFLOW_CTX_EXECUTION_DATE='2025-02-27T21:43:20.172370+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-27T21:43:20.172370+00:00'
+[2025-02-27T21:45:06.913+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-27T21:45:06.940+0000] {connection.py:277} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2025-02-27T21:45:06.940+0000] {base.py:84} INFO - Retrieving connection 'google_cloud_default'
+[2025-02-27T21:45:06.941+0000] {credentials_provider.py:409} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2025-02-27T21:45:06.953+0000] {bigquery.py:2956} INFO - Executing: {'query': {'query': '\n                        CREATE OR REPLACE VIEW `healthcare-project-452218.reporting_dataset.japan_view` AS\n                        SELECT \n                            `Year` AS `year`, \n                            `Disease Name` AS `disease_name`, \n                            `Disease Category` AS `disease_category`, \n                            `Prevalence Rate` AS `prevalence_rate`, \n                            `Incidence Rate` AS `incidence_rate`\n                        FROM `healthcare-project-452218.transform_dataset.japan_table`\n                        WHERE `Availability of Vaccines Treatment` = False\n                    ', 'useLegacySql': False}}'
+[2025-02-27T21:45:06.960+0000] {bigquery.py:1344} INFO - Inserting job airflow_load_and_transform_view_create_view_japan_table_2025_02_27T21_43_20_172370_00_00_3546e474ca59b49aeb5d00aeaf54079c
+[2025-02-27T21:45:07.651+0000] {bigquery.py:2927} INFO - Job airflow_load_and_transform_view_create_view_japan_table_2025_02_27T21_43_20_172370_00_00_3546e474ca59b49aeb5d00aeaf54079c is completed. Checking the job status
+[2025-02-27T21:45:07.669+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-27T21:45:07.670+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=load_and_transform_view, task_id=create_view_japan_table, run_id=manual__2025-02-27T21:43:20.172370+00:00, execution_date=20250227T214320, start_date=20250227T214506, end_date=20250227T214507
+[2025-02-27T21:45:07.713+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-27T21:45:07.766+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-27T21:45:07.768+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

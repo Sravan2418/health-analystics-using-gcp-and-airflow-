@@ -1,0 +1,22 @@
+[2025-02-27T21:44:17.741+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-27T21:44:17.758+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_and_transform_view.create_table_japan manual__2025-02-27T21:43:20.172370+00:00 [queued]>
+[2025-02-27T21:44:17.769+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_and_transform_view.create_table_japan manual__2025-02-27T21:43:20.172370+00:00 [queued]>
+[2025-02-27T21:44:17.770+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-02-27T21:44:17.787+0000] {taskinstance.py:2890} INFO - Executing <Task(BigQueryInsertJobOperator): create_table_japan> on 2025-02-27 21:43:20.172370+00:00
+[2025-02-27T21:44:17.794+0000] {standard_task_runner.py:72} INFO - Started process 6127 to run task
+[2025-02-27T21:44:17.802+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'load_and_transform_view', 'create_table_japan', 'manual__2025-02-27T21:43:20.172370+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/finial.py', '--cfg-path', '/tmp/tmppxswwzpd']
+[2025-02-27T21:44:17.806+0000] {standard_task_runner.py:105} INFO - Job 44: Subtask create_table_japan
+[2025-02-27T21:44:17.861+0000] {task_command.py:467} INFO - Running <TaskInstance: load_and_transform_view.create_table_japan manual__2025-02-27T21:43:20.172370+00:00 [running]> on host airflow.us-central1-c.c.healthcare-project-452218.internal
+[2025-02-27T21:44:17.928+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='load_and_transform_view' AIRFLOW_CTX_TASK_ID='create_table_japan' AIRFLOW_CTX_EXECUTION_DATE='2025-02-27T21:43:20.172370+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-27T21:43:20.172370+00:00'
+[2025-02-27T21:44:17.930+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-27T21:44:17.957+0000] {connection.py:277} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2025-02-27T21:44:17.957+0000] {base.py:84} INFO - Retrieving connection 'google_cloud_default'
+[2025-02-27T21:44:17.958+0000] {credentials_provider.py:409} INFO - Getting connection using `google.auth.default()` since no explicit credentials are provided.
+[2025-02-27T21:44:17.970+0000] {bigquery.py:2956} INFO - Executing: {'query': {'query': "\n                        CREATE OR REPLACE TABLE `healthcare-project-452218.transform_dataset.japan_table` AS\n                        SELECT *\n                        FROM `healthcare-project-452218.staging_dataset.global_data`\n                        WHERE country = 'Japan'\n                    ", 'useLegacySql': False}}'
+[2025-02-27T21:44:17.978+0000] {bigquery.py:1344} INFO - Inserting job airflow_load_and_transform_view_create_table_japan_2025_02_27T21_43_20_172370_00_00_c29084388c40e4b33d07bcbd5ce7efcf
+[2025-02-27T21:44:20.845+0000] {bigquery.py:2927} INFO - Job airflow_load_and_transform_view_create_table_japan_2025_02_27T21_43_20_172370_00_00_c29084388c40e4b33d07bcbd5ce7efcf is completed. Checking the job status
+[2025-02-27T21:44:20.864+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-27T21:44:20.865+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=load_and_transform_view, task_id=create_table_japan, run_id=manual__2025-02-27T21:43:20.172370+00:00, execution_date=20250227T214320, start_date=20250227T214417, end_date=20250227T214420
+[2025-02-27T21:44:20.908+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-27T21:44:20.945+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-27T21:44:20.953+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
